@@ -272,7 +272,6 @@ blockquote {
 blockquote::before {
     color: #4e5665;
     content: "";
-    font-family: FontAwesome;
     font-size: 36px;
     left: 20px;
     line-height: 0;
@@ -549,7 +548,6 @@ span.semibold {
 }
 
 .section-title h2::after {
-    background-image: url("../img/icon/logo-icon.png");
     background-size: contain;
     bottom: 0;
     content: "";
@@ -595,7 +593,6 @@ header {
 }
 
 .logo a::after {
-    background-image: url("../img/icon/logo-icon.png");
     background-size: contain;
     bottom: 0;
     content: "";
@@ -916,7 +913,7 @@ header {
 /*2.3 Download*/
 
 .download-area {
-    padding: 138px 0 136px;
+    padding: 50px 0px 136px;
 }
 
 .donwload-left {
@@ -925,12 +922,11 @@ header {
 }
 
 .donwload-left::after {
-    background-image: url("../img/164035450-16391d88-1724-4bfa-ab25-bd5528f9f690.png");
     background-repeat: no-repeat;
     background-size: contain;
     content: "";
     height: 694px;
-    left: 0;
+    left: 0; 
     margin: auto;
     position: absolute;
     right: 0;
@@ -938,9 +934,6 @@ header {
     width: 389px;
 }
 
-.donwload-left img {
-    animation: 3s ease 0s normal none infinite running bounce;
-}
 
 .download-right {
     margin: 45px 0 0;
@@ -977,7 +970,6 @@ header {
 .download-right .dl-list li::before {
     color: #22b9ca;
     content: "";
-    font-family: FontAwesome;
     left: 0;
     position: absolute;
     top: 0;
@@ -1646,7 +1638,6 @@ header {
 .twitter-follow::before {
     color: #008dfc;
     content: "";
-    font-family: FontAwesome;
     font-size: 28px;
     left: 28px;
     line-height: 32px;
@@ -1669,7 +1660,6 @@ header {
 
 .twitter-text::before {
     content: "";
-    font-family: FontAwesome;
     font-size: 44px;
     left: 20px;
     position: absolute;
@@ -1842,7 +1832,6 @@ footer {
 }
 
 .h2ha-banner {
-    background-image: url("../img/home2/hero-banner.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 90%;
@@ -1918,7 +1907,7 @@ footer {
 /*----------------------------------------*/
 
 .home3-hero-area {
-    padding: 119px 0 44px;
+    padding: 20px 0 44px;
 }
 
 .home3-hero {
@@ -1942,9 +1931,30 @@ footer {
     width: 70%;
 }
 
-.home3-hero img {}
+.home2-right img {}
 
 
+.home2-right {
+    text-align: center;
+    position: relative;
+}
+
+.home2-right::after {
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 694px;
+    left: 0; 
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 389px;
+}
+
+.home2-right img {
+    animation: 3s ease 0s normal none infinite running bounce;
+}
 
 /*----------------------------------------*/
 
@@ -2498,7 +2508,6 @@ footer {
 
 .smb-content .smbc-more::after {
     content: "";
-    font-family: FontAwesome;
     position: absolute;
     right: -20px;
     top: 0;
